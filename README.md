@@ -1,35 +1,106 @@
-# Hi there 👋
+![Banner](https://www.canva.com/design/DAG9bahH6B8/ZVqiTy3oEo6zvPuoNY2xCA/edit?utm_content=DAG9bahH6B8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+)
 
-# 👋 About Me
+# 👋 Hi, I’m Ashley Cichy
 
-Hi, I'm Ashley Cichy — an aspiring QA Engineer with a unique journey from the world of barbering and customer service to software quality assurance. I’m passionate about ensuring seamless, user-friendly digital experiences through detailed testing, thoughtful design analysis, and automation.
+### QA Engineer in the Making | Automation Curious | User-First Thinker
 
-💡 I recently graduated from TripleTen’s QA Engineering Bootcamp and am currently pursuing an AAS in Software & AI Engineering at Maestro College.
+![Python](https://img.shields.io/badge/Python-Testing-blue?logo=python)
+![JavaScript](https://img.shields.io/badge/JavaScript-Automation-yellow?logo=javascript)
+![Selenium](https://img.shields.io/badge/Selenium-Automation-green?logo=selenium)
+![Playwright](https://img.shields.io/badge/Playwright-E2E-purple)
+![Postman](https://img.shields.io/badge/Postman-API-orange?logo=postman)
+![Jira](https://img.shields.io/badge/Jira-Bug_Tracking-blue?logo=jira)
+![GitHub](https://img.shields.io/badge/GitHub-Version_Control-black?logo=github)
 
-🧪 My toolkit includes Selenium, Playwright, Python, JavaScript, Postman, Jira, and Figma, with hands-on experience testing web, API, and mobile applications.
+---
 
-🚀 I’ve worked on projects like Urban Routes, Urban Grocers, Urban Scooters, and COLOrush, where I designed test cases, identified critical bugs, and implemented automation frameworks using Page Object Model principles.
+## ✨ About Me
 
-💬 I love collaborating with developers, analyzing edge cases, and turning complex requirements into clear, testable outcomes.
+I’m an aspiring **QA Engineer** with a non-traditional background that started in barbering and customer service and led me into software quality assurance. Precision, attention to detail, and understanding people were essential behind the barber’s chair—and they turn out to be just as powerful when testing software.
 
-Outside of tech, I bring creativity and empathy from my years behind the barber’s chair — qualities that help me see both the human and technical sides of quality assurance.
+I’m passionate about building **smooth, reliable, user-friendly digital experiences**. I love breaking down requirements, exploring edge cases, and asking *“what happens if…?”* until the product feels solid from every angle. Whether I’m writing test cases, logging bugs, or automating flows, I bring curiosity, clarity, and care to every step.
+
+I recently graduated from **TripleTen’s QA Engineering Bootcamp** and continue my education in **Software & AI Engineering**, with a long-term focus on **Computer Science (Business & AI pathway)**. I’m always learning, always improving, and genuinely excited about the future of quality engineering.
+
+---
+
+## 🧪 What I Bring to the Table
+
+- Manual & automated testing with a **user-first mindset**
+- Thoughtful test case design covering happy paths and edge cases
+- Clear, actionable bug reports developers actually appreciate
+- UI, API, and mobile application testing
+- Automation using **Selenium (Python)** and **Playwright (JavaScript)**
+- Strong collaboration, communication, and curiosity
+
+---
+
+## 🚀 Featured QA Projects
+
+### 🚗 Urban Routes — UI Automation
+**Tech:** Python, Selenium, Page Object Model  
+- Automated critical user journeys and regression scenarios  
+- Designed reusable page objects for scalable tests  
+- Validated UI behavior and edge cases  
+
+### 🛒 Urban Grocers — API Testing
+**Tech:** Postman, REST APIs, JSON  
+- Created positive and negative API test cases  
+- Validated response bodies, status codes, and error handling  
+- Logged defects with clear reproduction steps  
+
+### 🛴 Urban Scooters — Functional & Mobile Testing
+**Tech:** Manual Testing, Test Design  
+- Tested real-world user flows across mobile scenarios  
+- Identified usability and functional defects  
+
+### 🎨 COLOrush — Web Application QA
+**Tech:** Manual Testing, UX Validation  
+- Tested authentication, form validation, and data persistence  
+- Focused on usability, boundary values, and negative cases  
+
+---
 
 ## 🧰 Tech Stack
 
-Languages: Python, JavaScript, HTML, CSS
-Testing Tools: Selenium, Playwright, Postman, Jira, Chrome DevTools
-Frameworks: Pytest, POM, CI/CD Basics
-Other: GitHub, Figma, Notion, Google Sheets/Docs
+**Languages**  
+- Python • JavaScript • HTML • CSS  
 
-## 🌱 Currently Learning
+**Testing & QA Tools**  
+- Selenium • Playwright • Postman • Jira • Chrome DevTools  
 
-- Data Structure & Algorithms
-- American History WWII
-- Object-Oriented Programming
+**Frameworks & Practices**  
+- Pytest • Page Object Model (POM) • CI/CD basics  
 
-## 🤔 I’m looking for help 
--  Test automations
--  Building my portfolio for my job search
+**Collaboration & Documentation**  
+- GitHub • Figma • Notion • Google Sheets & Docs  
+
+---
+
+## 🌱 Currently Growing In
+
+- Data Structures & Algorithms  
+- Object-Oriented Programming  
+- Computer Science fundamentals (Business & AI focus)  
+
+---
+
+## 🤝 What I’m Looking For
+
+- Entry-level **QA Engineer / Software Tester** roles  
+- Opportunities to deepen **test automation** skills  
+- Real-world projects and team collaboration  
+- Environments that value quality, learning, and communication  
+
+---
+
+## 🧠 QA Fun Fact
+
+Years in customer-facing roles trained me to notice tiny inconsistencies before they became big problems. In QA, that means I test like a user, think like a teammate, and always ask one more question than expected.
+
+📫 *Feel free to explore my repositories or connect with me. I’m always happy to talk testing, quality, and building better software.*
+
 <!--
 **Ashl3yyMari3/Ashl3yyMari3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
