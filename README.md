@@ -1,4 +1,5 @@
-![Banner]()
+![Banner](github-banner.png)
+
 
 # 👋 Hi, I’m Ashley Cichy
 
