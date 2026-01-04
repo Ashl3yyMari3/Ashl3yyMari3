@@ -1,4 +1,4 @@
-![Banner](https://www.canva.com/design/DAG9bahH6B8/ZVqiTy3oEo6zvPuoNY2xCA/edit?utm_content=DAG9bahH6B8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![Banner](https://github.com/Ashl3yyMari3/Ashl3yyMari3/blob/efe71718dd0fec20944368607192be74370a9263/Dark%20Blue%20Modern%20Glow%20Software%20Solution%20LinkedIn%20Background%20Photo%20(1280%20x%20320%20px).png)
 
 
 # 👋 Hi, I’m Ashley Cichy
