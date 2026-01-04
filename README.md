@@ -1,4 +1,4 @@
-![Banner](https://www.canva.com/design/DAG9bahH6B8/bSZ_3KYmV2ha4_KXkzO_UA/view?utm_content=DAG9bahH6B8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1057b04651)
+![Banner]()
 
 # 👋 Hi, I’m Ashley Cichy
 
