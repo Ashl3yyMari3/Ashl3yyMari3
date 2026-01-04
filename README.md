@@ -23,9 +23,9 @@ Other: GitHub, Figma, Notion, Google Sheets/Docs
 
 ## 🌱 Currently Learning
 
-- General Physcology
-- Software engineering principles
-- Intro to Python programming
+- Data Structure & Algorithms
+- American History WWII
+- Object-Oriented Programming
 
 ## 🤔 I’m looking for help 
 -  Test automations
