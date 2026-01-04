@@ -1,4 +1,4 @@
-![Banner](github-banner.png)
+![Banner](https://www.canva.com/design/DAG9bahH6B8/ZVqiTy3oEo6zvPuoNY2xCA/edit?utm_content=DAG9bahH6B8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 # 👋 Hi, I’m Ashley Cichy
