@@ -38,11 +38,26 @@ I recently graduated from **TripleTen’s QA Engineering Bootcamp** and continue
 
 ## 🚀 Featured QA Projects
 
+### 🧪 Percruit Inc. — E2E Automation & Cross-Platform Testing
+
+**Tech:** Playwright, JavaScript/TypeScript, Page Object Model, GitHub, VS Code, BrowserStack, Jira
+
+* Built and maintained end-to-end Playwright test cases for the Mentor platform
+* Tested and debugged Events Page and Assignments Page workflows until test cases passed successfully
+* Created automated test coverage for key Events Page actions, including edit event, cancel event, delete event, and copy event link
+* Performed cross-browser testing across Chrome, Firefox, Edge, and Safari to validate consistent functionality
+* Conducted cross-platform testing to identify layout, usability, and functionality issues across different devices and screen sizes
+* Executed exploratory testing to uncover defects beyond scripted test cases
+* Used reliable locators, assertions, and debugging tools to improve test stability
+* Collaborated through GitHub branches, commits, pull requests, Jira tickets, and test result reviews
+
+
 ### 🚗 Urban Routes — UI Automation
 **Tech:** Python, Selenium, Page Object Model  
 - Automated critical user journeys and regression scenarios  
 - Designed reusable page objects for scalable tests  
-- Validated UI behavior and edge cases  
+- Validated UI behavior and edge cases
+  
 
 ### 🛒 Urban Grocers — API Testing
 **Tech:** Postman, REST APIs, JSON  
@@ -65,7 +80,7 @@ I recently graduated from **TripleTen’s QA Engineering Bootcamp** and continue
 ## 🧰 Tech Stack
 
 **Languages**  
-- Python • JavaScript • HTML • CSS  
+- Python • JavaScript • HTML • CSS • TypeScript
 
 **Testing & QA Tools**  
 - Selenium • Playwright • Postman • Jira • Chrome DevTools  
@@ -74,7 +89,7 @@ I recently graduated from **TripleTen’s QA Engineering Bootcamp** and continue
 - Pytest • Page Object Model (POM) • CI/CD basics  
 
 **Collaboration & Documentation**  
-- GitHub • Figma • Notion • Google Sheets & Docs  
+- GitHub • Figma • Notion • Google Sheets & Docs • Circle  
 
 ---
 
@@ -88,10 +103,10 @@ I recently graduated from **TripleTen’s QA Engineering Bootcamp** and continue
 
 ## 🤝 What I’m Looking For
 
-- Entry-level **QA Engineer / Software Tester** roles  
+- Entry-level **QA Engineer / Software Tester** & Quality Specialist roles  
 - Opportunities to deepen **test automation** skills  
 - Real-world projects and team collaboration  
-- Environments that value quality, learning, and communication  
+- Environments that value QUALITY, learning, and communication  
 
 ---
 
