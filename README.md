@@ -83,13 +83,16 @@ I enjoy breaking down requirements, exploring edge cases, and asking *“what ha
 - Created reusable page objects to make tests easier to maintain and scale
 - Validated UI behavior across positive, negative, and edge-case conditions
 
-### 🧠 [Notion AI — Quality Evaluation & AI Behavior Testing](https://github.com/Ashl3yyMari3/Notion_AI_Project)
+### 🧠 [Notion AI — Authenticated Playwright Automation](https://github.com/Ashl3yyMari3/Notion_AI_Project)
 
-**Tech:** Manual Testing, Playwright, Lighthouse, Chrome DevTools, Postman
+**Tech:** Playwright, TypeScript, Page Object Model, authenticated browser state, HTML reports and traces
 
-- Evaluated AI response quality, prompt handling, error states, latency, usability, and accessibility
-- Applied risk-based testing to functional and behavioral AI scenarios
-- Documented test cases, defects, evidence, findings, and improvement recommendations
+- Built an authenticated end-to-end suite for Notion and Notion AI using reusable page objects
+- Automated private-page creation, dynamic page naming, AI composer access, and test-data cleanup
+- Added an opt-in AI-generation test that submits a real prompt, inserts the response, and validates its relevance
+- Protected AI usage by skipping generation during standard smoke runs unless explicitly enabled
+- Strengthened reliability with user-facing locators, state-based waits, screenshots, videos, and retained traces
+- Verified the default suite with **2 passing smoke tests and 1 intentional skip**, plus a passing live AI-generation test
 
 ### 🛒 Urban Grocers — API Testing
 
