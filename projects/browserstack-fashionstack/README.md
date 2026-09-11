@@ -4,296 +4,81 @@
 
 **Achievement:** 2nd Place Winner, E-Commerce Track  
 **Demo Application:** https://ecommercebs.vercel.app/  
-**Platform:** BrowserStack Test Management + Low Code Automation  
-**Evidence Archive:** [Recovered mission artifacts and build evidence](./evidence/README.md)
+**Platform:** BrowserStack Test Management + Low Code Automation
 
-## Project Overview
+## Project Summary
 
-I completed four qualifying technical missions for BrowserStack's Fashion Stack e-commerce challenge: **Mission 01, Mission 02, Mission 04, and Mission 05**.
+This project was my four-mission submission for the 2026 BrowserStack AI Hackathon E-Commerce Track using the **Fashion Stack** demo application.
 
-The challenge allowed participants to complete any four of six technical missions. My submission demonstrated an end-to-end QA workflow that moved from raw product requirements into AI-assisted test design, manual test refinement, low-code automation, reusable architecture, secure test data, locator-failure recovery, and synchronized Test Management results.
+The challenge allowed participants to complete any four of six technical missions. I completed **Mission 01, Mission 02, Mission 04, and Mission 05**, building an end-to-end QA workflow that moved from product requirements into AI-assisted test design, manual test refinement, cloud automation, reusable test architecture, secure test data, locator-failure recovery, and Test Management result synchronization.
 
-BrowserStack's evaluation team recognized the project as the **cleanest four-mission submission in the competition**, specifically praising the documentation, the multi-testcase XML reports for **TC-300** and **TC-301**, and verified Low Code Automation public build links.
+The project covered real e-commerce behavior including:
 
-### End-to-End QA Flow
+- Homepage hero-carousel behavior and stability
+- Men's product inventory and product-card validation
+- Persistent cart-counter behavior
+- Login, logout, and authentication validation
+- Reusable Login and Logout automation modules
+- Shared Global Variables and encrypted Secrets
+- AI-assisted self-healing after an intentional locator failure
+- Mapping automated tests back to BrowserStack Test Management
+- XML/JUnit-style result reporting and execution traceability
 
-**User stories -> AI-assisted test design -> manual test refinement -> Low Code Automation -> reusable modules and secure test data -> self-healing workflow -> Test Management result synchronization**
+BrowserStack's evaluation team recognized the submission as the **cleanest four-mission submission in the competition**, specifically highlighting the documentation, the multi-testcase XML reporting for **TC-300** and **TC-301**, and verified Low Code Automation public build links.
 
-### Core Skills Demonstrated
+## Core Skills Demonstrated
 
-- Requirements analysis and test case design
-- Positive, negative, boundary, and edge-case coverage
+- Requirements analysis and acceptance-criteria interpretation
+- Manual test case design and refinement
+- Happy Path, Negative, Edge Case, and end-to-end coverage
 - BrowserStack Test Management
 - BrowserStack Low Code Automation
-- AI Test Case Generator and Low-Code Authoring Agent
-- Reusable Login and Logout modules
-- Global variables and encrypted secrets
+- AI Test Case Generator
+- Low-Code Authoring Agent
+- Reusable automation modules
+- Global Variables and encrypted Secrets
+- Secure test-data handling
 - Cloud-based automated execution
-- AI-assisted locator recovery / self-healing
-- XML/JUnit result reporting
+- Locator debugging and failure reproduction
+- AI-assisted self-healing workflows
+- XML/JUnit test-result reporting
 - Automation-to-Test Management traceability
+- Evidence-driven QA documentation
 
----
+## Mission Folders
 
-# Mission 01: The AI Test Architect
-## TCM and LCA Generation
+Each mission has its own folder containing the original requirements, what I built, recovered evidence, and available build links.
 
-### What the challenge required
+### [Mission 01: The AI Test Architect](./mission-01/README.md)
+AI-assisted Test Management and Low Code Automation generation. Includes the **full 16-case FashionStack manual test suite**.
 
-Participants had to turn the supplied FashionStack user stories into a structured manual test suite and then convert selected cases into executable Low Code Automation workflows.
+### [Mission 02: Mastering Data & Enterprise Workflows](./mission-02/README.md)
+Reusable Login/Logout modules, Global Variables, encrypted Secrets, and a live public BrowserStack build with two passing workflows.
 
-The required workflow was:
+### [Mission 04: The Resilient Pipeline](./mission-04/README.md)
+AI Self-Healing workflow with recovered **pass -> intentional locator failure -> subsequent pass** build history.
 
-1. Create a BrowserStack Test Management project.
-2. Use the AI Test Case Generator to generate cases from the supplied user stories.
-3. Review and refine the generated suite so it included core paths, negative scenarios, and edge cases.
-4. Select at least two manual test cases and push them into Low Code Automation.
-5. Use the Low-Code Authoring Agent to scaffold automation from the natural-language steps.
-6. Execute the workflow in the BrowserStack cloud.
+### [Mission 05: Test Case Mapping and Results Sync](./mission-05/README.md)
+Automation-to-Test Management mapping, public BrowserStack build, Test Management execution results, and XML evidence for **TC-300** and **TC-301**.
 
-### Required submission evidence
+## End-to-End QA Flow
 
-- Exported CSV of the refined manual test suite from Test Management
-- Public build link showing successful execution of the generated Low Code Automation script
+**User stories -> AI-assisted test design -> manual refinement -> Low Code Automation -> reusable architecture -> secure test data -> resilient execution -> Test Management result synchronization**
 
-### FashionStack requirements covered
+## Project Outcome
 
-**US-01: Homepage Hero Carousel**
-- Validate the dynamic hero carousel.
-- Cover normal slide transitions and navigation.
-- Verify interaction stability, including rapid navigation.
-- Include missing/broken-content behavior.
+The final submission earned **2nd Place in the BrowserStack AI Hackathon E-Commerce Track** and a Certificate of Completion.
 
-**US-02: Men's Category Inventory**
-- Clicking **Men** should open the page headed **Men's Fashion**.
-- The inventory summary should contain **16 products**.
-- Exactly 16 product cards should be displayed.
-- Product cards should contain a product name, price, image/fallback, and working details navigation.
-
-**US-03: Persistent Cart Counter**
-- Start from a clean cart state.
-- Add a product and verify the cart counter updates correctly.
-- Verify the cart count persists across navigation.
-- Include repeated-add, quantity-change, and missing-size scenarios.
-
-**US-04: Authentication**
-- Validate successful login and logout.
-- Cover incorrect password, unregistered email, invalid email format, and blank fields.
-- Verify password masking.
-- Include OTP authentication where available.
-
-### What I built
-
-- Created the FashionStack Test Management project.
-- Generated and refined **16 test cases**, with four cases for each user story.
-- Structured coverage across Happy Path, Negative, and Edge Case scenarios.
-- Pushed selected Test Management cases into Low Code Automation.
-- Used the Low-Code Authoring Agent to create executable workflows.
-- Executed the automation in BrowserStack's cloud environment.
-
-### Recovered evidence
-
-- **[Full Mission 01 16-test-case spreadsheet](./mission-01/M01_FashionStack_Manual_Test_Suite_16_Cases.csv)**
-- [Mission 01 evidence notes](./mission-01/README.md)
-- The spreadsheet preserves all 16 case IDs and titles across US-01 through US-04, along with priorities, scenario types, descriptions, and direct BrowserStack Test Management case links.
-
-**What this demonstrates:** requirements analysis, AI-assisted test design, manual-to-automation workflow design, coverage refinement, and cloud execution.
-
----
-
-# Mission 02: Mastering Data & Enterprise Workflows
-## Reusable Modules, Global Variables, and Secrets
-
-### What the challenge required
-
-Participants had to build one complete **login -> action -> logout** journey and then refactor it into an enterprise-style reusable test design.
-
-The workflow required:
-
-1. Create a global variable such as `UserEmail`.
-2. Store the password as an encrypted secret such as `LoginPassword`.
-3. Build a complete login, meaningful in-app action, and logout workflow.
-4. Replace hardcoded data with the global variable and encrypted secret.
-5. Confirm no plaintext credential remained in the test steps.
-6. Convert the repeated login steps into a reusable `Login` module.
-7. Convert the repeated logout steps into a reusable `Logout` module.
-8. Create a second test performing a different in-app action and import the same modules.
-9. Verify the shared variable showed a USED IN count greater than one.
-10. Run both tests successfully in BrowserStack's cloud.
-
-### Required submission evidence
-
-- Public build link showing both tests passing with the Login and Logout modules visible
-- Screenshot of the Global Variables page showing the variable reused across multiple tests
-
-### What I built
-
-- `M02 - Login, Add to Cart, and Logout`
-- `M02 - Login, Verify Men Inventory, and Logout`
-- Shared `UserEmail` global variable
-- Encrypted `LoginPassword` secret
-- Reusable Login and Logout modules
-- Two passing end-to-end cloud workflows
-
-### Live evidence
-
-**Public BrowserStack build:**  
-https://low-code.browserstack.com/projects/4020759/builds/ytmqporhxmztcmrvt85rxaeovoo9graunciiswff?public_token=050912ea5a7e3216116e481201f3f9d621b193b7288696c8ae5ae8bf7b1c782f
-
-**Recovered build:** `M02 - FashionStack Enterprise Workflows-6`  
-**Result:** 2 tests passed, 0 failed
-
-**What this demonstrates:** reusable automation architecture, secure test-data management, modular workflow design, and maintainable enterprise QA practices.
-
----
-
-# Mission 04: The Resilient Pipeline
-## AI Self-Healing Automation
-
-### What the challenge required
-
-This mission intentionally broke a working locator and required BrowserStack's self-healing capability to recover without re-recording the test.
-
-The required sequence was:
-
-1. Create a functional login automation and establish a passing baseline.
-2. Use the FashionStack Toggle Button to change the target element attributes.
-3. Rerun the unchanged test and confirm the altered locator causes a failure.
-4. Enable Self-Healing and rerun the exact same test.
-5. Verify the healed locator and Self-Healed indicator in the execution history.
-
-### Required submission evidence
-
-- Public session URL displaying the active **Self-Healed** indicator in the Low Code Automation execution history
-
-### Recovered original run sequence
-
-The historical BrowserStack project still preserves the mission's pass/fail/pass progression:
-
-- **`M4 AI Self Healing-1`**: Passed, Aug 13, 2026 at 12:26:55 AM EDT
-- **`M4 AI Self Healing-2`**: Failed, Aug 13, 2026 at 12:43:47 AM EDT
-- **`M4 AI Self Healing-3`**: Passed, Aug 13, 2026 at 12:46:18 AM EDT
-
-The failed execution shows the step:
-
-`Hover over "Back to Home" button`
-
-with the BrowserStack error:
-
-`Could not find element on the page. Please file a bug or re-record the test step.`
-
-That failure is the deliberate middle stage of the mission, followed minutes later by the passing M4-3 execution.
-
-### Recovered evidence
-
-- [Mission 04 recovered run history](./evidence/mission-04-run-history.md)
-
-**Evidence note:** The original competition submission included the required public self-healing session. The current account view still exposes the historical builds and execution steps, but the original public session token / visible historical Self-Healed badge is not currently available. The portfolio therefore preserves the recovered pass -> locator failure -> subsequent pass sequence without presenting an unverifiable current public badge link.
-
-**What this demonstrates:** failure reproduction, locator debugging, resilient automation, AI-assisted maintenance, and validation of recovery behavior rather than simply chasing a green test result.
-
----
-
-# Mission 05: Test Case Mapping and Results Sync
-## Automation-to-TCM Traceability
-
-### What the challenge required
-
-Participants had to connect Low Code Automation execution back to BrowserStack Test Management so automated results landed against the correct managed test cases.
-
-The required workflow was:
-
-1. Start with an existing Test Management project and a working Low Code Automation test.
-2. Map the automated test to Test Management case IDs.
-3. Execute the mapped automation and download the XML report from the build.
-4. Upload the result into Test Management and confirm execution status updates against the mapped cases.
-
-### Required submission evidence
-
-- Test Management test-run screenshot showing execution results
-- Exported XML report
-
-### What I built
-
-- Mapped automated FashionStack tests to Test Management cases.
-- Executed the mapped tests in Low Code Automation.
-- Exported a multi-testcase XML report.
-- Synchronized the automation results back into Test Management.
-- Verified the results updated the mapped cases instead of creating duplicates.
-
-### Recovered evidence
-
-**Public BrowserStack M05 build:**  
-https://low-code.browserstack.com/projects/4024697/builds/rfjctl2wtr2solhyvcnahd4jmvtbrnygswrahtuy?public_token=ab46fe7fc2f4b17a7941c190b95981701d8eb1784109c61ebf5651c17becea1b
-
-**XML report:**  
-[Mission 05 TCM Results XML](./evidence/mission-05-tcm-results.xml)
-
-The recovered XML records:
-
-- Test suite: `M05 - TCM Results Sync-1`
-- **2 tests**
-- **0 failures**
-- Chrome desktop execution
-- **TC-300:** `M01-US02: Clicking Men Opens Men's Fashion Page with Exactly 16 Product Listings`
-- **TC-301:** `M01-US02: Product Names, Prices, and Images Display Correctly and Navigate to Detail Pages`
-
-The recovered Test Management run shows:
-
-- `M05 - FashionStack LCA Results Sync #1`
-- Created by Ashley Cichy on Aug 13, 2026
-- 2 tests
-- 2m 49s duration
-- **2 passed, 0 failed**
-- Failure analysis: **No Failures**
-
-The recovered Project Insights view also shows:
-
-- **16 total test cases**
-- **14 manual test cases**
-- **2 automated test cases**
-- **12.50% automation coverage**
-
-**What this demonstrates:** requirements-to-execution traceability, XML/JUnit reporting, results synchronization, Test Management integration, and audit-friendly QA documentation.
-
----
-
-# Evidence Archive
-
-The preserved evidence is organized here:
-
-**[Open the FashionStack Evidence Index](./evidence/README.md)**
-
-Current archive includes:
-
-- Mission 01 full 16-case Test Management spreadsheet
-- Mission 02 public passing BrowserStack build
-- Mission 04 recovered build/run history
-- Mission 05 public BrowserStack build
-- Mission 05 XML report with TC-300 and TC-301
-- Recovered Test Management execution details and project metrics
-
----
-
-# Project Outcome
-
-This project was more than a collection of isolated tests. It demonstrated a complete QA lifecycle across requirements, test management, automation design, execution resilience, and reporting.
-
-The final submission earned **2nd Place in the BrowserStack AI Hackathon E-Commerce Track**. BrowserStack specifically recognized the quality of the documentation, the multi-testcase TC-300 / TC-301 XML reporting, and verified Low Code Automation build evidence.
+Rather than treating the four missions as isolated exercises, I used them to demonstrate a connected QA lifecycle: understanding requirements, designing coverage, automating meaningful workflows, improving maintainability, investigating failure behavior, and preserving traceability between automated execution and managed test cases.
 
 ## Tools & Technologies
 
 **BrowserStack:** Test Management, Low Code Automation, AI Test Case Generator, Low-Code Authoring Agent, AI Self-Healing, Global Variables, Secrets, Modules, cloud builds  
 **Testing:** Functional Testing, Negative Testing, Edge-Case Testing, End-to-End Testing, Requirements Analysis, Test Case Design, Traceability  
-**Artifacts:** CSV Test Management Export, XML/JUnit Report, BrowserStack Build Results, Test Management Run Results
-
-## Portfolio Summary
-
-> Built and executed a four-mission BrowserStack AI Hackathon QA project for the Fashion Stack e-commerce application, combining AI-assisted test design, Test Management, Low Code Automation, reusable modules, secure variables and secrets, AI self-healing workflows, and XML-based result synchronization. Designed coverage for carousel stability, product inventory, persistent cart behavior, and authentication scenarios. Earned 2nd Place in the E-Commerce Track, with BrowserStack recognizing the project as the cleanest four-mission submission in the competition.
+**Artifacts:** CSV Test Suite, XML/JUnit Report, BrowserStack Build Results, Test Management Run Results
 
 ## Links
 
 - **Fashion Stack Demo:** https://ecommercebs.vercel.app/
-- **Evidence Archive:** [GitHub evidence folder](./evidence/README.md)
 - **GitHub Profile:** https://github.com/Ashl3yyMari3
 - **LinkedIn:** https://linkedin.com/in/ashl3yymari3
