@@ -8,8 +8,10 @@ This folder preserves recovered artifacts and live BrowserStack evidence from As
 
 **Recovered evidence:**
 
-- [`mission-01-test-management-export.csv`](./mission-01-test-management-export.csv) - recovered BrowserStack Test Management export containing TC-300 and its detailed steps, expected results, project metadata, and AI refinement prompt. The prompt documents the 16-case structure across US-01 through US-04.
-- BrowserStack Test Management case URL preserved inside the CSV for TC-300.
+- [Mission 01 full 16-case spreadsheet](../mission-01/M01_FashionStack_Manual_Test_Suite_16_Cases.csv)
+- The spreadsheet contains all **16 FashionStack test cases**, four for each user story: US-01 Carousel, US-02 Men's Category, US-03 Cart Counter, and US-04 Authentication.
+- It preserves the BrowserStack Test Management IDs, priorities, scenario types, descriptions, and direct case URLs, including TC-300 and TC-301.
+- [Mission 01 folder and evidence notes](../mission-01/README.md)
 
 ## Mission 02: Mastering Data & Enterprise Workflows
 
