@@ -43,7 +43,7 @@ I enjoy breaking down requirements, exploring edge cases, and asking *“what ha
 
 ## 🚀 Featured QA & Engineering Projects
 
-### 🏆 [BrowserStack AI Hackathon — Fashion Stack Ecommerce Testing](./projects/browserstack-ai-hackathon-fashionstack.md)
+### 🏆 [BrowserStack AI Hackathon — Fashion Stack Ecommerce Testing](./projects/browserstack-fashionstack/README.md)
 
 **Recognition:** 2nd Place Winner & Certificate of Completion  
 **Tech:** BrowserStack Test Management, Low Code Automation, XML/JUnit, reusable modules, global variables, encrypted secrets, AI self-healing
@@ -54,7 +54,7 @@ I enjoy breaking down requirements, exploring edge cases, and asking *“what ha
 - Recovered and documented the Mission 04 pass → locator failure → subsequent pass sequence
 - Mapped automated tests to Test Management and preserved XML evidence for **TC-300** and **TC-301**
 - Preserved live public BrowserStack builds for Missions 02 and 05
-- Added a dedicated evidence archive with the recovered **Test Management CSV, XML report, build links, run history, and project metrics**
+- Added a dedicated BrowserStack project folder with the **full 16-case Mission 01 spreadsheet**, XML report, build links, run history, and project metrics
 
 📁 **[View the FashionStack Evidence Archive](./projects/browserstack-fashionstack/evidence/README.md)**
 
