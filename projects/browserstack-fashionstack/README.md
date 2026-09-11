@@ -5,7 +5,7 @@
 **Achievement:** 2nd Place Winner, E-Commerce Track  
 **Demo Application:** https://ecommercebs.vercel.app/  
 **Platform:** BrowserStack Test Management + Low Code Automation  
-**Evidence Archive:** [Recovered mission artifacts and build evidence](./browserstack-fashionstack/evidence/README.md)
+**Evidence Archive:** [Recovered mission artifacts and build evidence](./evidence/README.md)
 
 ## Project Overview
 
@@ -85,16 +85,17 @@ The required workflow was:
 ### What I built
 
 - Created the FashionStack Test Management project.
-- Generated and refined test cases across all four user stories.
-- Structured coverage across happy paths, negative tests, and edge cases.
+- Generated and refined **16 test cases**, with four cases for each user story.
+- Structured coverage across Happy Path, Negative, and Edge Case scenarios.
 - Pushed selected Test Management cases into Low Code Automation.
 - Used the Low-Code Authoring Agent to create executable workflows.
 - Executed the automation in BrowserStack's cloud environment.
 
 ### Recovered evidence
 
-- [Mission 01 Test Management CSV export](./browserstack-fashionstack/evidence/mission-01-test-management-export.csv)
-- The recovered CSV contains **TC-300**, detailed preconditions, atomic test steps, exact expected results, project metadata, and the AI refinement prompt documenting the full 16-case test structure across US-01 through US-04.
+- **[Full Mission 01 16-test-case spreadsheet](./mission-01/M01_FashionStack_Manual_Test_Suite_16_Cases.csv)**
+- [Mission 01 evidence notes](./mission-01/README.md)
+- The spreadsheet preserves all 16 case IDs and titles across US-01 through US-04, along with priorities, scenario types, descriptions, and direct BrowserStack Test Management case links.
 
 **What this demonstrates:** requirements analysis, AI-assisted test design, manual-to-automation workflow design, coverage refinement, and cloud execution.
 
@@ -185,7 +186,7 @@ That failure is the deliberate middle stage of the mission, followed minutes lat
 
 ### Recovered evidence
 
-- [Mission 04 recovered run history](./browserstack-fashionstack/evidence/mission-04-run-history.md)
+- [Mission 04 recovered run history](./evidence/mission-04-run-history.md)
 
 **Evidence note:** The original competition submission included the required public self-healing session. The current account view still exposes the historical builds and execution steps, but the original public session token / visible historical Self-Healed badge is not currently available. The portfolio therefore preserves the recovered pass -> locator failure -> subsequent pass sequence without presenting an unverifiable current public badge link.
 
@@ -226,7 +227,7 @@ The required workflow was:
 https://low-code.browserstack.com/projects/4024697/builds/rfjctl2wtr2solhyvcnahd4jmvtbrnygswrahtuy?public_token=ab46fe7fc2f4b17a7941c190b95981701d8eb1784109c61ebf5651c17becea1b
 
 **XML report:**  
-[Mission 05 TCM Results XML](./browserstack-fashionstack/evidence/mission-05-tcm-results.xml)
+[Mission 05 TCM Results XML](./evidence/mission-05-tcm-results.xml)
 
 The recovered XML records:
 
@@ -261,11 +262,11 @@ The recovered Project Insights view also shows:
 
 The preserved evidence is organized here:
 
-**[Open the FashionStack Evidence Index](./browserstack-fashionstack/evidence/README.md)**
+**[Open the FashionStack Evidence Index](./evidence/README.md)**
 
 Current archive includes:
 
-- Mission 01 Test Management CSV export
+- Mission 01 full 16-case Test Management spreadsheet
 - Mission 02 public passing BrowserStack build
 - Mission 04 recovered build/run history
 - Mission 05 public BrowserStack build
@@ -293,6 +294,6 @@ The final submission earned **2nd Place in the BrowserStack AI Hackathon E-Comme
 ## Links
 
 - **Fashion Stack Demo:** https://ecommercebs.vercel.app/
-- **Evidence Archive:** [GitHub evidence folder](./browserstack-fashionstack/evidence/README.md)
+- **Evidence Archive:** [GitHub evidence folder](./evidence/README.md)
 - **GitHub Profile:** https://github.com/Ashl3yyMari3
 - **LinkedIn:** https://linkedin.com/in/ashl3yymari3
