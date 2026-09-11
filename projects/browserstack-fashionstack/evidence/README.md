@@ -26,8 +26,9 @@ This folder preserves recovered artifacts and live BrowserStack evidence from As
 
 **Official requirement:** Establish a passing login baseline, intentionally change the locator target, confirm the unchanged test fails, enable AI Self-Healing, rerun the same test, and verify the healed locator / Self-Healed indicator in the execution history.
 
-**Recovered evidence from the original project history:**
+**Recovered evidence:**
 
+- [`mission-04-run-history.md`](./mission-04-run-history.md) - documented recovery of the original pass -> locator failure -> subsequent pass sequence.
 - `M4 AI Self Healing-1` - passed on Aug 13, 2026 at 12:26:55 AM EDT.
 - `M4 AI Self Healing-2` - failed on Aug 13, 2026 at 12:43:47 AM EDT.
 - The failed execution shows the step `Hover over "Back to Home" button` with the error `Could not find element on the page`.
@@ -42,7 +43,7 @@ The recovered screenshots preserve the pass -> locator failure -> subsequent pas
 **Recovered evidence:**
 
 - [Public BrowserStack M05 build](https://low-code.browserstack.com/projects/4024697/builds/rfjctl2wtr2solhyvcnahd4jmvtbrnygswrahtuy?public_token=ab46fe7fc2f4b17a7941c190b95981701d8eb1784109c61ebf5651c17becea1b)
-- [`mission-05-tcm-results.xml`](./mission-05-tcm-results.xml) - original-style JUnit XML evidence with 2 tests, 0 failures, and mapped IDs `TC-300` and `TC-301`.
+- [`mission-05-tcm-results.xml`](./mission-05-tcm-results.xml) - recovered JUnit XML evidence with 2 tests, 0 failures, and mapped IDs `TC-300` and `TC-301`.
 - Recovered Test Management run: `M05 - FashionStack LCA Results Sync #1`, created by Ashley Cichy on Aug 13, 2026, 2 tests, 2m 49s, 2 passed, 0 failed, no failures.
 - Recovered Project Insights view: 16 total test cases, 14 manual test cases, 2 automated test cases, and 12.50% automation coverage.
 
