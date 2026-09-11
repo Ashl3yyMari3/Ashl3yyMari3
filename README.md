@@ -43,17 +43,20 @@ I enjoy breaking down requirements, exploring edge cases, and asking *“what ha
 
 ## 🚀 Featured QA & Engineering Projects
 
-### 🏆 BrowserStack AI Hackathon — Fashion Stack Ecommerce Testing
+### 🏆 [BrowserStack AI Hackathon — Fashion Stack Ecommerce Testing](./projects/browserstack-ai-hackathon-fashionstack.md)
 
 **Recognition:** 2nd Place Winner & Certificate of Completion  
-**Tech:** BrowserStack Test Management, Low Code Automation, XML, reusable modules, global variables
+**Tech:** BrowserStack Test Management, Low Code Automation, XML/JUnit, reusable modules, global variables, encrypted secrets, AI self-healing
 
-- Completed all four Ecommerce Track missions individually within the competition window
-- Built and verified public Low Code Automation test runs for the Fashion Stack application
-- Produced detailed documentation and multi-testcase XML reports, including **TC-300** and **TC-301**
-- Created reusable modules and shared test data using global variables
-- Designed coverage for carousel behavior, product listings, cart updates, and login validation
-- Added negative and edge-case scenarios to test reliability beyond the basic happy path
+- Completed four qualifying Ecommerce Track missions: **M01, M02, M04, and M05**
+- Converted FashionStack user stories into structured manual coverage and Low Code Automation workflows
+- Built reusable Login/Logout modules using shared variables and encrypted credentials
+- Recovered and documented the Mission 04 pass → locator failure → subsequent pass sequence
+- Mapped automated tests to Test Management and preserved XML evidence for **TC-300** and **TC-301**
+- Preserved live public BrowserStack builds for Missions 02 and 05
+- Added a dedicated evidence archive with the recovered **Test Management CSV, XML report, build links, run history, and project metrics**
+
+📁 **[View the FashionStack Evidence Archive](./projects/browserstack-fashionstack/evidence/README.md)**
 
 ### 🧪 Percruit Inc. — E2E Automation & Cross-Platform Testing
 
