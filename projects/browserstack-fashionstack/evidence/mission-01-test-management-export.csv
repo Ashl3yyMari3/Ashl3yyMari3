@@ -1,0 +1,202 @@
+Test Case ID,Title,Folder ID,Folder Path,State,Owner,Priority,Type of Test Case,Automation Status,Description,Preconditions,Template,Steps,Steps: Additional Data,Expected Result,Issues,Tags,Attachments,Created At,Created By,Last Updated At,Last Updated By,Project Name,Test Case URL,AI Prompt
+TC-300,M01-US02: Clicking Men Opens Men's Fashion Page with Exactly 16 Product Listings,54521842,M01 - AI Generated FashionStack Test Cases,Active,Ashley Cichy,High,Functional,Not Automated,"Verifies that clicking the 'Men' link on the FashionStack homepage
+navigates to a page with the heading exactly reading 'Men's Fashion',
+that the inventory summary states '16 products', and that exactly 16
+product cards are displayed on the page.
+
+","1.  The FashionStack homepage is loaded in a supported browser.
+2.  The browser is in a clean session with no simulated failures.
+3.  The 'Men' navigation link is visible on the homepage.
+4.  All product data for the Men's category is available (no simulated
+    missing inventory).
+
+",Steps,"Open the FashionStack homepage in a supported browser.
+
+","","The homepage loads successfully. The main navigation is visible,
+including a 'Men' link.
+
+","","AI Generated,AI Generated Details,Happy Path","",08/12/2026 20:14:38,Ashley Cichy,08/13/2026 03:23:00,Ashley Cichy,BS AI Hackathon - FashionStack - Ashley Cichy,https://test-management.browserstack.com/projects/4024697/folder/54521842/test-cases/126911957,"Refine the 16 selected FashionStack test cases. Modify the selected
+cases only. Do not create additional cases, delete cases, merge cases,
+or change the core intent of any title.
+
+Preserve:
+
+* All 16 existing test case titles
+* Four cases for each user story
+* Existing Happy Path, Negative, and Edge Case classifications
+* M01-US01, M01-US02, M01-US03, and M01-US04 naming
+* Destination folder and existing scenario organization
+
+Restructure and improve every case using the Steps template. Each case
+must contain:
+
+1.  A concise objective describing the behavior under test.
+2.  Clear preconditions, including required account, application state,
+    cart state, test data, or controlled failure condition.
+3.  Atomic numbered steps containing only one action per step.
+4.  A specific expected result for every action step.
+5.  Test data where applicable.
+6.  Priority.
+7.  State: Active.
+8.  Type of Test Case: Functional.
+9.  Automation Status: Not Automated.
+10. Tag: FashionStack-Hackathon.
+11. Scenario classification: Happy Path, Negative, or Edge Case.
+
+Apply these quality rules:
+
+* Remove redundant or low-value steps within each case.
+* Do not use vague wording such as “verify it works,” “behaves
+  correctly,” or “page displays properly.”
+* State the exact text, element, value, or behavior that must be
+  observed.
+* Do not invent search, filtering, sorting, checkout, payment, or
+  navigation controls that are not available in FashionStack.
+* If a negative case requires a controlled test condition, test data
+  modification, blocked network request, or browser developer tools,
+  state that clearly as a precondition. Do not invent an application
+  button to produce the condition.
+* Do not expose real passwords or secret values. Use placeholders such
+  as `<ValidPassword>` and `<InvalidPassword>`.
+* Mark any unconfirmed application behavior as “Assumption requiring
+  manual review.”
+* Preserve expected product behavior even if the current application
+  contains a defect. Do not redefine broken behavior as correct.
+
+Use these verified FashionStack details:
+
+
+
+US-01 Homepage Hero Carousel:
+
+* Expected slides include Summer Collection 2024, Minimalist Essentials,
+  and Premium Denim.
+* Validate each slide’s heading, supporting content, image, and
+  navigation behavior.
+* For keyboard testing, use actual focusable carousel controls and
+  supported keys.
+* Do not invent a fixed automatic-transition interval. If no interval is
+  specified, measure and document the observed interval.
+* For rapid navigation, verify the carousel remains responsive, displays
+  one valid slide at a time, and does not become blank or misaligned.
+* For missing or broken content, use a clearly documented controlled
+  condition and verify that the rest of the homepage remains usable.
+
+US-02 Men's Category:
+
+* Clicking Men should open the page headed “Men's Fashion.”
+* The inventory summary should contain “16 products.”
+* Exactly 16 product cards should be displayed.
+* Polo Shirt and Casual Sneakers must be present.
+* Product cards should contain a product name, price, usable image or
+  defined fallback, and a working route to the appropriate details page.
+* A broken image must not be treated as expected correct behavior.
+* Missing-inventory cases must use documented controlled test data or
+  state.
+
+US-03 Persistent Cart Counter:
+
+* Begin with a clean browser session and cart counter at 0.
+* Use Silk Wrap Dress as the primary product.
+* Select size S.
+* Use quantity 1 for the primary happy path.
+* Clicking Add to Cart should update the header cart counter from 0 to
+  1.
+* The counter should remain 1 after navigating to the homepage and cart
+  page.
+* Repeated-add and quantity-change cases must verify both the counter
+  and cart contents.
+* The missing-size negative case must verify that the product is not
+  added, a clear validation response is displayed, and the counter does
+  not change.
+
+US-04 Authentication:
+
+* Valid login requires a previously registered FashionStack test
+  account.
+* Successful login must be verified using a logged-in account indicator,
+  profile/account control, or other stable authenticated-state element.
+* Successful logout must return the user to a clearly signed-out state.
+* Incorrect password, unregistered email, invalid email format, and
+  blank-field checks should be represented as separate test-data
+  variations within the existing negative test case, with an expected
+  result for each variation.
+* The password-masking case must verify that entered characters are
+  obscured and the password is not exposed in the UI.
+* OTP testing should use a registered test account with a permanent
+  BrowserStack test inbox when available.
+* If OTP availability or delivery requires an account entitlement, mark
+  it as a precondition or assumption requiring review.
+
+After refining, check the complete set for duplicate coverage, missing
+expected results, invented controls, unclear preconditions, exposed
+credentials, and non-atomic steps. Return exactly the same 16 test cases
+with improved detail and structure.Homepage Hero Carousel Content and
+Navigation
+
+4
+
+| M01-US01: Carousel Displays All Three FashionStack Slides with Correct Content Happy path |
+| M01-US01: Carousel Navigation Controls and Keyboard Interaction Function Correctly Happy path |
+| M01-US01: Carousel Automatic Transition and Rapid Repeated Navigation Stability Edge case |
+| M01-US01: Carousel Handles Missing or Broken Slide Content Gracefully Negative |
+
+Men's Category Page Inventory Display and Navigation
+
+4
+
+| M01-US02: Clicking Men Opens Men\'s Fashion Page with Exactly 16 Product Listings Happy path |
+| M01-US02: Product Names, Prices, and Images Display Correctly and Navigate to Detail Pages Happy path |
+| M01-US02: Men\'s Fashion Page Handles Broken Product Images Gracefully Negative |
+| M01-US02: Men\'s Fashion Page Handles Missing Inventory and Incomplete Product List Gracefully Negative |
+
+Persistent Cart Counter Behavior
+
+4
+
+| M01-US03: Selecting Size S and Clicking Add to Cart Updates Header Counter from 0 to 1 Happy path |
+| M01-US03: Cart Counter Persists Across Navigation to Homepage and Cart Page Happy path |
+| M01-US03: Repeated Product Additions and Quantity Changes Update Cart Counter Correctly Edge case |
+| M01-US03: Add to Cart Without Selecting Required Size Does Not Update Cart Counter Negative |
+
+User Authentication — Login, Logout, and Input Validation
+
+4
+
+| M01-US04: Valid Email-and-Password Login Succeeds and Logout Returns to Signed-Out State Happy path |
+| M01-US04: Login Form Rejects Incorrect Password, Unregistered Email, Invalid Email Format, and Blank Fields Negative |
+| M01-US04: Password Field Masks Input Characters on the Login Form Happy path |
+| M01-US04: OTP Login Method Authenticates User Successfully Happy path |
+
+"
+,,,,,,,,,,,,"Click the 'Men' link in the navigation.
+
+","","The browser navigates to the Men's category page. The page heading reads
+exactly 'Men's Fashion'.
+
+",,,,,,,,,,
+,,,,,,,,,,,,"Locate the inventory summary text on the Men's Fashion page.
+
+","","The inventory summary text contains '16 products' (exact wording as
+specified).
+
+",,,,,,,,,,
+,,,,,,,,,,,,"Count the total number of product cards displayed on the Men's Fashion
+page.
+
+","","Exactly 16 product cards are visible on the page. No more and no fewer
+than 16 cards are displayed.
+
+",,,,,,,,,,
+,,,,,,,,,,,,"Confirm that the product 'Polo Shirt' is present among the 16 displayed
+product cards.
+
+","","A product card with the name 'Polo Shirt' is visible on the page.
+
+",,,,,,,,,,
+,,,,,,,,,,,,"Confirm that the product 'Casual Sneakers' is present among the 16
+displayed product cards.
+
+","","A product card with the name 'Casual Sneakers' is visible on the page.
+
+",,,,,,,,,,
