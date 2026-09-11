@@ -54,9 +54,9 @@ I enjoy breaking down requirements, exploring edge cases, and asking *“what ha
 - Recovered and documented the Mission 04 pass → locator failure → subsequent pass sequence
 - Mapped automated tests to Test Management and preserved XML evidence for **TC-300** and **TC-301**
 - Preserved live public BrowserStack builds for Missions 02 and 05
-- Added a dedicated BrowserStack project folder with the **full 16-case Mission 01 spreadsheet**, XML report, build links, run history, and project metrics
+- Organized the project into dedicated mission folders containing requirements, build evidence, and recovered artifacts
 
-📁 **[View the FashionStack Evidence Archive](./projects/browserstack-fashionstack/evidence/README.md)**
+📁 **[View the organized FashionStack project and mission folders](./projects/browserstack-fashionstack/README.md)**
 
 ### 🧪 Percruit Inc. — E2E Automation & Cross-Platform Testing
 
